@@ -210,43 +210,43 @@ endfun
 "the original values would be 24 bit color but apparently that is not possible
 let s:brown = "905532"
 let s:aqua =  "3AFFDB"
-let s:blue = "689FB6"
+let s:blue = "519aba"
 let s:darkBlue = "44788E"
-let s:purple = "834F79"
+let s:purple = "a074c4"
 let s:lightPurple = "834F79"
-let s:red = "AE403F"
+let s:red = "cc3e44"
 let s:beige = "F5C06F"
-let s:yellow = "F09F17"
-let s:orange = "D4843E"
+let s:yellow = "cbcb41"
+let s:orange = "e37933"
 let s:darkOrange = "F16529"
-let s:pink = "CB6F6F"
+let s:pink = "f55385"
 let s:salmon = "EE6E73"
-let s:green = "8FAA54"
+let s:green = "8dc149"
 let s:lightGreen = "31B53E"
-let s:white = "FFFFFF"
+let s:white = "93a1a1"
 
 let s:file_extension_colors = {
   \ 'styl'     : s:green,
   \ 'scss'     : s:pink,
-  \ 'htm'      : s:darkOrange,
-  \ 'html'     : s:darkOrange,
+  \ 'htm'      : s:orange,
+  \ 'html'     : s:orange,
   \ 'erb'      : s:red,
   \ 'slim'     : s:orange,
   \ 'ejs'      : s:yellow,
   \ 'css'      : s:blue,
-  \ 'less'     : s:darkBlue,
-  \ 'md'       : s:yellow,
-  \ 'markdown' : s:yellow,
+  \ 'less'     : s:blue,
+  \ 'md'       : s:blue,
+  \ 'markdown' : s:blue,
   \ 'json'     : s:beige,
   \ 'js'       : s:beige,
   \ 'jsx'      : s:blue,
   \ 'rb'       : s:red,
   \ 'php'      : s:purple,
-  \ 'py'       : s:yellow,
-  \ 'pyc'      : s:yellow,
-  \ 'pyo'      : s:yellow,
-  \ 'pyd'      : s:yellow,
-  \ 'coffee'   : s:brown,
+  \ 'py'       : s:blue,
+  \ 'pyc'      : s:blue,
+  \ 'pyo'      : s:blue,
+  \ 'pyd'      : s:blue,
+  \ 'coffee'   : s:yellow,
   \ 'mustache' : s:orange,
   \ 'hbs'      : s:orange,
   \ 'conf'     : s:white,
@@ -283,7 +283,7 @@ let s:file_extension_colors = {
   \ 'cljs'     : s:green,
   \ 'edn'      : s:green,
   \ 'scala'    : s:red,
-  \ 'go'       : s:beige,
+  \ 'go'       : s:blue,
   \ 'dart'     : s:blue,
   \ 'xul'      : s:darkOrange,
   \ 'sln'      : s:purple,
@@ -324,7 +324,7 @@ let s:file_node_exact_matches = {
   \ '.bashrc'                          : s:white,
   \ '.bashprofile'                     : s:white,
   \ 'favicon.ico'                      : s:yellow,
-  \ 'license'                          : s:white,
+  \ 'license'                          : s:yellow,
   \ 'node_modules'                     : s:green,
   \ 'react.jsx'                        : s:blue,
   \ 'procfile'                         : s:purple,
